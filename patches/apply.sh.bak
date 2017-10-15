@@ -29,7 +29,7 @@
  patch -p1 < ../../device/Panasonic/P55Novo/patches/native.patch
  cd ..
  cd opt/te*/
- patch -p1 < ../../device/Panasonic/P55Novo/patches/telephony.patch
+ patch -p1 < ../../../device/Panasonic/P55Novo/patches/telephony.patch
  cd ../../..
  cd exte*/sepolicy
  patch -p1 < ../../device/Panasonic/P55Novo/patches/sepolicy.patch
