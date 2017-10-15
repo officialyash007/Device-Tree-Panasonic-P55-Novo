@@ -37,12 +37,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     audio_policy.default
-    
+
 PRODUCT_PACKAGES += \
     lib_driver_cmd_mt66xx
-    
-#USE_CUSTOM_AUDIO_POLICY := 1
-    
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml \
     $(LOCAL_PATH)/configs/media_profiles.xml:system/etc/media_profiles.xml \
@@ -64,11 +62,6 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor
-
-# GSM
-#PRODUCT_PACKAGES += \
-#    gsm0710muxd \
-#    gsm0710muxdmd2
 
 PRODUCT_PACKAGES += libmt6592
 
@@ -118,7 +111,7 @@ PRODUCT_COPY_FILES += \
 # Keylayout overrides
 PRODUCT_COPY_FILES_OVERRIDES += \
     system/usr/keylayout/Generic.kl
-    
+
 PRODUCT_PROPERTY_OVERRIDES := \
 	ro.mediatek.version.release=ALPS.W10.24.p0 \
 	ro.mediatek.platform=MT6592 \
@@ -143,10 +136,6 @@ PRODUCT_PACKAGES += \
     libfmjni \
     libfmcust \
     libmtkplayer
-
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
 
 # YGPS
 PRODUCT_PACKAGES+=\
