@@ -139,3 +139,6 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 # Enable dex-preoptimization
 WITH_DEXPREOPT := false
 DONT_DEXPREOPT_PREBUILTS := true
+
+# Enable malloc svelte for low memory
+MALLOC_SVELTE := true
