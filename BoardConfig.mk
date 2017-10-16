@@ -71,7 +71,7 @@ BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/BOOT/BOOT/boot/boot_mode
 
 # RIL
 BOARD_RIL_CLASS := ../../../device/Panasonic/P55Novo/ril/
-
+BOARD_PROVIDES_RILD := true
 BOARD_CONNECTIVITY_VENDOR := MediaTek
 BOARD_CONNECTIVITY_MODULE := conn_soc
 
