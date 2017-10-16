@@ -146,3 +146,6 @@ PRODUCT_PACKAGES += libmtk_symbols
 # Link libmtk_symbols
 TARGET_LDPRELOAD := libmtk_symbols.so
 
+# Old kernel support
+OLD_KERNEL := true
+
