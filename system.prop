@@ -33,7 +33,6 @@ persist.radio.fd.counter=15
 persist.radio.fd.off.counter=5
 persist.radio.fd.r8.counter=15
 persist.radio.fd.off.r8.counter=5
-fmradio.driver.enable=1
 ril.radiooff.poweroffMD=0
 
 mux.debuglog.enable=1
