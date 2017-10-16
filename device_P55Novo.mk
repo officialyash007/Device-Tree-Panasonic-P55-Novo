@@ -118,13 +118,9 @@ PRODUCT_PROPERTY_OVERRIDES := \
 	ro.mediatek.chip_ver=S01 \
 	ro.mediatek.version.branch=KK1.MP1 \
 	ro.mediatek.version.sdk=2 \
-	ro.telephony.sim.count=2 \
-	ro.allow.mock.location=0 \
-	ro.debuggable=1 \
-	persist.sys.usb.config=mtp,adb \
-	persist.service.adb.enable=1 \
-	persist.service.debuggable=1 \
-	persist.mtk.wcn.combo.chipid=-1
+
+#USB
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += persist.sys.usb.config=mtp
 
 # Torch
 PRODUCT_PACKAGES += \
