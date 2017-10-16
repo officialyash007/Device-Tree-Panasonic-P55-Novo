@@ -85,7 +85,7 @@ WIFI_DRIVER_FW_PATH_P2P:=P2P
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_MTK := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/Panasonic/P55Novo/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/Panasonic/P55Novo/bluetooth/bdroid_buildcfg
 
 # Sensors
 TARGET_NO_SENSOR_PERMISSION_CHECK := true
