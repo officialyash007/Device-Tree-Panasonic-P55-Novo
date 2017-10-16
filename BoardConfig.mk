@@ -1,9 +1,6 @@
 # inherit from the proprietary version
 -include vendor/Panasonic/P55Novo/BoardConfigVendor.mk
 
-# GPS
-TARGET_SPECIFIC_HEADER_PATH := device/Panasonic/P55Novo/include
-
 # Platform
 TARGET_BOARD_PLATFORM := mt6592
 TARGET_NO_BOOTLOADER := true
