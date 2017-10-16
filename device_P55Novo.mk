@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_PACKAGES += \
     libwpa_client \
+    libwifi-hal-mt66xx \
     hostapd \
     dhcpcd.conf \
     wpa_supplicant \
