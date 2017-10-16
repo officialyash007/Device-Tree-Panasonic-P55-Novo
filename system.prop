@@ -29,7 +29,6 @@ ro.opengles.version=131072
 ro.nfc.port=I2C
 mtknfc.status.type=unknow
 
-persist.mtk.aee.aed=on
 persist.radio.fd.counter=15
 persist.radio.fd.off.counter=5
 persist.radio.fd.r8.counter=15
