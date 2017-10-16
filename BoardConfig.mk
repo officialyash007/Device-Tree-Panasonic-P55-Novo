@@ -152,3 +152,6 @@ OLD_KERNEL := true
 # Audio
 USE_LEGACY_AUDIO_POLICY := 1
 
+# Disable ashmem tracking
+BOARD_GLOBAL_CFLAGS += -DDISABLE_ASHMEM_TRACKING
+
