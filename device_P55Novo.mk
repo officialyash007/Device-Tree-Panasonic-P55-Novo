@@ -126,13 +126,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += persist.sys.usb.config=mtp
 PRODUCT_PACKAGES += \
     Torch
 
-# FM Radio
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni \
-    libfmcust \
-    libmtkplayer
-
 # YGPS
 PRODUCT_PACKAGES+=\
     YGPS
