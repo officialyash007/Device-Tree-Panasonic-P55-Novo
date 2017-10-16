@@ -149,7 +149,6 @@ TARGET_LDPRELOAD := libmtk_symbols.so
 OLD_KERNEL := true
 
 # Audio
-USE_LEGACY_AUDIO_POLICY := 1
 BOARD_GLOBAL_CFLAGS += -DMTK_AUDIO_BLOB
 
 # Disable ashmem tracking
