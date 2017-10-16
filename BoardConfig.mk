@@ -137,3 +137,7 @@ POLICYVERS := 26
 #Bootanimation optimizations 
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
+
+# Enable dex-preoptimization
+WITH_DEXPREOPT := false
+DONT_DEXPREOPT_PREBUILTS := true
