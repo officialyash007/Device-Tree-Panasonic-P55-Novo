@@ -149,3 +149,6 @@ TARGET_LDPRELOAD := libmtk_symbols.so
 # Old kernel support
 OLD_KERNEL := true
 
+# Audio
+USE_LEGACY_AUDIO_POLICY := 1
+
