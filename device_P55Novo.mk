@@ -17,9 +17,6 @@ endif
 
 PRODUCT_TAGS += dalvik.gc.type-precise
 
-PRODUCT_PACKAGES += \
-    libxlog
-
 # Lights
 PRODUCT_PACKAGES += \
     lights.mt6592
@@ -62,8 +59,6 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor
-
-PRODUCT_PACKAGES += libmt6592
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril_class=MediaTekRIL

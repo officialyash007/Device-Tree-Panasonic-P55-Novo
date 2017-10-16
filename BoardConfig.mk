@@ -139,3 +139,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 # Enable malloc svelte for low memory
 MALLOC_SVELTE := true
+
+# Symbols
+PRODUCT_PACKAGES += libmtk_symbols
+
