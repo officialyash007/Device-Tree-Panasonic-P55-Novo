@@ -159,3 +159,7 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
 # Header path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
+
+# Memtrack
+PRODUCT_PACKAGES += memtrack.mt6592
+
